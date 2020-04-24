@@ -1,0 +1,73 @@
+﻿﻿<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+    <link rel="stylesheet" href="./CSS/Style.css">
+</head>
+
+    <nav>
+        <button id="btnLogOut">
+            LogOut
+        </button>
+        <button id="btnAbout">
+            About us
+        </button>
+        <h3>Welcome</h3>
+
+    </nav>
+    <body>  
+        <header>
+            <div class="container">
+                <h1>
+                    My Todo List
+                </h1>
+            </div>
+
+        </header>
+        <h2>
+            Things To Do
+        </h2>
+        <input type="text" id="add" value="Add" />  
+        <button id="btn">+</button>
+        <div id="ContainerToDOList">
+           
+            <section id="things_to_do">
+                <h4>TO DO</h4>
+                <ul id="list" ondrop="drop(event)" ondragover="allowDrop(event)">
+                </ul>
+            </section>
+           
+            <section id = "listInProccess">
+                <h4>IN PROCCESS</h4>
+                <ul id = "list2" ondrop="drop(event)" ondragover="allowDrop(event)">
+
+                </ul>
+            </section>
+            
+            <section id = "ListFinished">
+                <h4>FINISH</h4>
+                <ul id = "lista3" ondrop="drop(event)" ondragover="allowDrop(event)">
+
+                </ul>
+            </section>
+        </div>
+
+            
+        
+        <script
+            src="https://code.jquery.com/jquery-3.4.1.min.js"
+            integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+            crossorigin="anonymous">
+        </script>
+
+        <script src="./JS/toDO.js"></script>
+        <script>
+
+        </script>
+
+    </body>
+
+
+</html>

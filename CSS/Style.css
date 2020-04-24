@@ -1,0 +1,88 @@
+body {
+  background-color: #0384fc;
+}
+
+nav {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+#container {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#loginContainer {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 20%;
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRELsF2ghyMy7XETzJ-yahN0LLflwTEI93W6cB-Enus5R6ryM29&usqp=CAU");
+  border-radius: 5px;
+  height: 250px;
+}
+#loginContainer input {
+  width: 90%;
+  margin-top: 30px;
+  height: 30%;
+  border-radius: 5px;
+  border-collapse: collapse;
+  border-style: hidden;
+  background-color: #0384fc;
+  color: white;
+}
+#loginContainer input::placeholder {
+  color: white;
+}
+
+#ContainerToDOList {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+#ContainerToDOList section {
+  width: 30%;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+#ContainerToDOList section h4 {
+  color: white;
+}
+#ContainerToDOList section ul {
+  min-height: 100px;
+  width: 80%;
+  height: 100%;
+  background-color: red;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-direction: column;
+}
+#ContainerToDOList section ul li {
+  background-color: #fcca03;
+  width: 80%;
+  margin-top: 5px;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: white;
+  border-radius: 5px;
+  list-style-image: url(https://icon-icons.com/icons2/2312/PNG/32/accept_allow_admit_okay_icon_141954.png);
+}
+
+/*# sourceMappingURL=Style.css.map */
